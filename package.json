@@ -1,0 +1,34 @@
+{
+  "name": "headliner",
+  "version": "1.0.0",
+  "description": "A little webservice to grab the top headlines from each section on BBC News. Because why not? :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoitsro/headliner"
+  },
+  "keywords": [
+    "news",
+    "scrape",
+    "headlines",
+    "bbc",
+    "cheerio"
+  ],
+  "author": "Ro Ramtohul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoitsro/headliner/issues"
+  },
+  "homepage": "https://github.com/yoitsro/headliner",
+  "dependencies": {
+    "async": "^0.9.0",
+    "cheerio": "^0.17.0",
+    "hapi": "^7.1.1",
+    "hoek": "^2.8.1",
+    "request": "^2.47.0"
+  }
+}
